@@ -1,0 +1,20 @@
+
+.CustomerLp1 > .firstRow {
+    display: flex;
+    width: 85%;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    }
+    .CustomerLp1 > .seconedRow {
+    display: flex;
+    width: 85%;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    
+        }
+        .CustomerLp1 > .dropDown{
+            margin-left: 74%;
+        }

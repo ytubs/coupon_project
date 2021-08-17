@@ -1,0 +1,11 @@
+.Login  {
+    width: 250px;
+    box-sizing: border-box;
+
+}
+
+.Login button {
+    width: 125px;
+    margin: 10px 0;
+
+}

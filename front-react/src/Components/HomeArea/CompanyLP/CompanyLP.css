@@ -1,0 +1,19 @@
+.CompanyLP > .firstRow  {
+    display: flex;
+    width: 85%;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;    
+}
+.CompanyLP > .seconedRow  {
+    display: flex;
+    width: 85%;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+     
+}
+.CompanyLP > .dropDown{
+    margin-left: 74%;
+}

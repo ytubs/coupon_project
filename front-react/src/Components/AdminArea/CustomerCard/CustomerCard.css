@@ -1,0 +1,7 @@
+.CustomerCard {
+	width: 300px;
+    display: inline-flex;
+    align-items: center;
+    padding-right: 0;
+    background-color:rgb(202, 255, 185) ;
+}

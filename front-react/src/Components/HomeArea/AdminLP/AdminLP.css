@@ -1,0 +1,20 @@
+
+.AdminLP > .firstRow {
+display: flex;
+width: 85%;
+margin: 10px;
+padding: 5px;
+text-align: center;
+justify-content: center;
+}
+.AdminLP > .seconedRow {
+display: flex;
+width: 85%;
+margin: 10px;
+text-align: center;
+justify-content: center;
+
+    }
+    .AdminLP > .dropDown{
+        margin-left: 74%;
+    }
