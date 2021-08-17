@@ -105,19 +105,4 @@ public class JwtUtil {
 			
 
 		}}
-//
-//		public static void main(String[] args) {
-//
-//			JwtUtil util = new JwtUtil();
-//
-//			UserDetails userDetails = new UserDetails("1245", "aaa@mail", UserType.COMPANY);
-//			String token = util.generateToken(userDetails);
-//			System.out.println(token);
-//
-//			System.out.println(util.extractUsername(token));
-//			System.out.println(util.extractAllClaims(token));
-//			System.out.println(util.extractExpiration(token));
-//			System.out.println(util.isTokenExpired(token));
-////			System.out.println("=====================");
-////			System.out.println(util.validateToken(token, new UserDetails("111", "aaa@mail", UserType.ADMIN)));
-//}
+

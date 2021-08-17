@@ -43,7 +43,7 @@ public class AdminService implements ClientService {
 		for (Company company2 : companies) {
 			if (company.getEmail().equalsIgnoreCase(company2.getEmail())
 					|| company.getName().equalsIgnoreCase(company2.getName())) {
-				throw new CouponException("you canot add company with the same name or email");
+				throw new CouponException("you cannot add company with the same name or email");
 			}
 		}
 		companyRepository.save(company);
@@ -61,13 +61,13 @@ public class AdminService implements ClientService {
 			System.out.println("company with id: " + company.getId() + " has been updated");
 			return company;
 		} else {
-			throw new CouponException("you canot update a company name or its id");
+			throw new CouponException("you cannot update a company name or its id");
 
 		}
 
 	}
 
-/// check later what happends if the id dosent exists
+
 	public void deleteCompany(int companyId) {
 		companyRepository.deleteById(companyId);
 		System.out.println("company with id: " + companyId + " has been deleted");
@@ -106,7 +106,7 @@ public class AdminService implements ClientService {
 			System.out.println("customer with id: " + customer.getId() + " has been updated");
 return customer;
 		} else {
-			throw new CouponException("you canot update a customer id");
+			throw new CouponException("you cannot update a customer id");
 
 		}
 
@@ -137,7 +137,6 @@ return customer;
 
 	@Override
 	public ClientService login(String email, String password) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 }
